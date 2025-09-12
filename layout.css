@@ -55,11 +55,11 @@ nav {
   color: #ff0000;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .menu {
     display: none;
   }
-}
+} */
 
 .grid_1-1-1-1 {
   display: grid;
