@@ -8,14 +8,15 @@ header {
   padding: 20px;
   background-color: #AAD8B8;
   border: solid 2px black;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.496);
+  box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.456);
 }
 
 
 
 .logo img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 nav {
@@ -110,6 +111,8 @@ main {
   padding: 40px;
   background-color: #FFF6E4;
   border: solid black 2.5px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.533);
+  box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.492);
 }
 
 
@@ -235,6 +238,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
   }
 
   .flex_col :last-child {

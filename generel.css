@@ -37,6 +37,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   /* fallback */
   background-color: #F8A37C;
 }
